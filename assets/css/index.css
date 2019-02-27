@@ -1,0 +1,36 @@
+body {
+    background-color: #2d2d2d;
+}
+
+#pathfinder {
+    display: block;
+    height: 128px;
+    width: 244px;
+    line-height: 60px;
+
+    -moz-border-radius: 30px; /* or 50% */
+    border-radius: 30px; /* or 50% */
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+
+#profileTop {
+    display: block;
+    background-color: #559669;
+    height: 20%;
+    padding-left: 5px;
+    padding-top: 1px;
+}
+
+.inside {
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+.text{
+    color: white;
+    font-family: 'Trebuchet MS';
+}
