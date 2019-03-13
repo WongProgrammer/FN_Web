@@ -1,36 +1,44 @@
-body {
-    background-color: #2d2d2d;
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    background-color: aquamarine;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    color: black;
 }
 
-#pathfinder {
-    display: block;
-    height: 128px;
-    width: 244px;
-    line-height: 60px;
-
-    -moz-border-radius: 30px; /* or 50% */
-    border-radius: 30px; /* or 50% */
-
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 2em;
+.navbar-name{
+    float: left;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
 }
 
-#profileTop {
-    display: block;
-    background-color: #559669;
-    height: 20%;
-    padding-left: 5px;
-    padding-top: 1px;
+.navbar-container{
+    position: absolute;
+    background-color: whitesmoke;
+    width: 100%;
 }
 
-.inside {
-    margin-left: 50%;
-    margin-right: 50%;
+.navbar-container a{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 3px;
 }
 
-.text{
-    color: white;
-    font-family: 'Trebuchet MS';
+.links li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.navbar-links ul{
+    float: right;
+}
+
+.links a:hover{
+    color: #ffaaaa;
 }
