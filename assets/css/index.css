@@ -42,3 +42,17 @@ body{
 .links a:hover{
     color: #ffaaaa;
 }
+
+.picture {
+    margin-top: 6em;
+    margin-left: 1em;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    border: darkcyan;
+    border-style: solid;
+}
+.contacts li{
+    list-style-type: none;
+}
