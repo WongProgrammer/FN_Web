@@ -3,12 +3,70 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Francis Nguyen</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    <link rel="stylesheet" type= "text/css" href="assets\css\aboutme.css">
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Lato');
+        body{
+            background-color: aquamarine;
+            margin:0;
+            font-family: 'Lato', sans-serif;
+            color: black;
+        }
+
+        .navbar-name{
+            float: left;
+            position: fixed;
+            margin-top: 2em;
+            margin-left: 2em;
+            margin-bottom: 2em;
+        }
+
+        .navbar-container{
+            position: fixed;
+            background-color: whitesmoke;
+            width: 100%;
+        }
+
+        .navbar-container a{
+            text-decoration: none;
+            color: black;
+            letter-spacing: 3px;
+        }
+
+        .links li {
+            list-style-type: none;
+            display: inline-block;
+            margin-top: 1em;
+            margin-right: 2em;
+            margin-bottom: 1em;
+        }
+
+        .navbar-links ul{
+            float: right;
+        }
+
+        .links a:hover{
+            color: #ffaaaa;
+        }
+    </style>
     <script src="main.js"></script>
 </head>
-<body>
-    poop
-</body>
+    <body>
+        <div class="navbar-container">
+            <div class="navbar-name">
+                <a href="index.html">Francis Nguyen</a>
+            </div>
+            <div class="navbar-links">
+                <ul class="links">
+                    <li> <a href="\assets\pages\aboutme.html">About Me</a> </li>
+                    <li> <a href="\assets\pages\resume.html">Resume</a> </li>
+                    <li> <a href="\assets\pages\portfolio.html">Portfolio</a> </li>
+                    <li> <a href="#>">Contact</a></li>
+                </ul>
+            </div>
+        </div> 
+    </body>
 </html>
