@@ -51,6 +51,32 @@
         .links a:hover{
             color: #ffaaaa;
         }
+        div.gallery {
+            margin-top: 5.5em;
+            border: 1px solid #ffaaaa;
+            float: left;
+            width: 51%;
+        }
+        div.gallery:hover {
+            border: 1px solid #ffaaaa;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            color:  #ffaaaa;
+            font-size: 20px; 
+            text-shadow:
+                -1px -1px 0 white,
+                1px -1px 0 white,
+                -1px 1px 0 white,
+                1px 1px 0 white;
+        }
     </style>
     <script src="main.js"></script>
 </head>
@@ -64,9 +90,37 @@
                     <li> <a href="\assets\pages\aboutme.html">About Me</a> </li>
                     <li> <a href="\assets\pages\resume.html">Resume</a> </li>
                     <li> <a href="\assets\pages\portfolio.html">Portfolio</a> </li>
-                    <li> <a href="#>">Contact</a></li>
+                    <li> <a href="\assets\pages\contact.html">Contact</a></li>
                 </ul>
             </div>
         </div> 
+        <div class="gallery">
+            <a target="_blank" href="\assets\img\APP3.png">
+                <img src="\assets\img\APP3.png" alt="APO Mobile App" width="600" height="400">
+            </a>
+            <div class="desc">
+                I was on a team of 6 programmers working on an mobile application,written in React Native,
+                 that kept records of requirements of brothers from the Fraternity, a calendar of upcoming events,
+                and records of general information of each brother. This application is for both IOS and Android devices and is used by over 400 other chapters
+                across the world. 
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="\assets\img\BC1.jpg">
+                <img src="\assets\img\BC1.jpg" alt="Benefit Concert" width="600" height="400">
+            </a>
+            <div class="desc">
+                My team and I created a concert to fundraise money for a local non-profit organization that helps foster childrend with their future.
+                 We scouted for local Los Angeles performers to appear in our Fraternity's Benefit Concert and partnered with In The Making to make this event happen.
+                 The event had an attendece of over 70 people and we were able to fundraise over $1000.
+            </div>
+        </div>
+        <div class="gallery">
+            <a target="_blank" href="http://francisnguyen.me/">
+                <img src="\assets\img\Website.png" alt="Website" width="600" height="400">
+            </a>
+            <div class="desc">This website is made to showcase what I learn in my ACM workshops</div>
+        </div>
+          
     </body>
 </html>
